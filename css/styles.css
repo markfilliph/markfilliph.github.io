@@ -13,3 +13,131 @@ h2{
 body {
     background-color: #edc988;
 }
+
+
+
+.body_portfolio{
+background-color: red;
+
+}
+
+.Personnal{
+  background: lightgray;
+  font-family: "Arial", cursive, arial;
+  font-size: 15px;
+}
+
+.Professional{
+background: #f1e189;
+font-family: "Florence", cursive, florence;
+font-size: 15px;
+
+}
+
+.Academic{
+  background: #94b4a4;
+  font-family: "Courier", monospace, Courier;
+  font-size: 15px;
+}
+
+.rounded{
+  border: 1px;
+  padding: 3px;
+  border-radius: 20px;
+  height: 200px;
+  width: auto;
+}
+
+.shadow{
+    box-shadow: 0 4px 20px 0 rgba (0,0,0,0,4),
+                0 20px 30px 0 rgba (0,0,0,0,19);
+
+}
+
+.photo{
+  border: 2px;
+  margin: 5px;
+  float: center;
+  width: 250px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.photo1{
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.photo2{
+  border: 2px;
+  margin: 5px;
+  float: center;
+  width: auto;
+  box-shadow: 10px 10px 5px grey;
+}
+
+table, {
+border: 3px solid green;
+background-color: lightgray;
+}
+
+tr {
+  border: 1px solid lightgreen;
+  background-color: lightgray;
+}
+
+th {
+  border: 1px solid lightgreen;
+  background-color: lightgray;
+}
+
+td {
+  border-style: groove;
+  border: 1px;
+  solid: lightgreen;
+  cellspading 5;
+  background-color: lightgray;
+}
+
+.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.container {
+  text-align: relative;
+  display:none;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+
+.row::after{
+content: "";
+clear: both;
+display: table;
+
+}
+
+.column_img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+#Mark_Filliph{
+  font-family: sans-serif;
+}
+
+
+
+.redline{
+  background-color: red;
+
+}

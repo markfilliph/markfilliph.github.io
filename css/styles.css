@@ -99,6 +99,11 @@ td {
   background-color: lightgray;
 }
 
+label{
+font-weight: bold;
+
+}
+
 .polaroid {
   width: 80%;
   background-color: white;
